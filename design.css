@@ -6,5 +6,16 @@
 
 .hero{
     background: url('./images/cow1.jpg');
+    height: 100vh;
+    background-position: bottom center;
+    background-size: cover;
+}
+
+.hero h1{
+    text-align: center;
+    color: azure;
+    font-size: 100px;
+    font-weight: 900;
+    padding-top: 50px;
     
 }
