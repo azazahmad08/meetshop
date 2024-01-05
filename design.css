@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Lilita+One&display=swap');
 *{
     margin: 0px;
     padding: 0px;
@@ -9,13 +10,57 @@
     height: 100vh;
     background-position: bottom center;
     background-size: cover;
+    clip-path: polygon(50% 0%, 100% 0, 100% 35%, 100% 70%, 80% 90%, 50% 100%, 0 100%, 0% 70%, 0% 35%, 20% 10%);
 }
 
 .hero h1{
     text-align: center;
-    color: azure;
+    color: rgb(220, 205, 42);
     font-size: 100px;
     font-weight: 900;
     padding-top: 50px;
+    font-family: 'Lilita One', sans-serif;
+    
     
 }
+
+.article{
+    width: 80%;
+    margin: 60px auto;
+    border-width: 20px;
+    border-color: rgb(67, 67, 64);
+    border-style:solid;
+    background-color: #d64a4a;
+    padding: 50px;
+}
+
+.article h2{
+    text-align: center;
+    font-size: 40px;
+    border-bottom:3px;
+    border-color: #ffffff;
+    border-style: solid;
+    padding: 3px;
+    margin: 30px;
+    border-top: 0px;
+    border-right: 0px;
+    border-left: 0px;
+    
+}
+
+.content{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    
+   
+}
+
+.content div{
+    min-width: 400px;
+}
+
+.content img{
+    width: 100%;
+}
+
